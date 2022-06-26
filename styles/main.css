@@ -69,6 +69,10 @@ li a:hover {
   align-items: center;
   width: 100%;
 }
+.blog-content {
+  display: flex;
+  align-items: center;
+}
 .footer {
   background-color: #333;
   color: white;
