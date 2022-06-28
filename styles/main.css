@@ -1,5 +1,8 @@
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+#header {
+  text-align: center;
 }
 
 #nav {
@@ -88,6 +91,7 @@ body {
   background-color: white;
   color: #5d5d5d;
   padding: 20px;
+  text-align: center;
 }
 
 h2 {
@@ -106,7 +110,7 @@ h2 {
 .article {
   background-color: white;
   border-radius: 6px;
-  margin: 40px;
+  margin: 50px;
 }
 
 .article p {
