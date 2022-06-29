@@ -107,6 +107,7 @@ body {
 .article {
   border-radius: 6px;
   margin: 60px;
+  padding: 60px;
   background-color: #ace5ee;
 }
 p {
