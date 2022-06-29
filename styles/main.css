@@ -57,8 +57,6 @@ body {
 
 #banner header h2 {
   color: #5d5d5d;
-  font-weight: 700;
-  font-size: 2.5em;
   margin: 0 0 20px 0;
 }
 
@@ -68,13 +66,14 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  text-align: center;
 }
 .project {
   display: flex;
   align-items: center;
 }
 .pro {
-  margin: 10px;
+  margin: 20px;
 }
 .blog {
   display: flex;
@@ -82,7 +81,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  text-align: center;
 }
+
 .blog-content {
   display: flex;
   align-items: center;
@@ -94,10 +95,6 @@ body {
   text-align: center;
 }
 
-h2 {
-  font-size: 40px;
-  color: #5d5d5d;
-}
 @media (max-width: 768px) {
   .project {
     flex-direction: column;
@@ -108,16 +105,37 @@ h2 {
 }
 
 .article {
-  background-color: white;
   border-radius: 6px;
-  margin: 50px;
+  margin: 60px;
+  background-color: #ace5ee;
 }
-
-.article p {
-  margin: 20px;
+p {
   font-size: 20px;
 }
 
-.article h1 {
+h1 {
+  font-size: 40px;
   text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.inline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.code-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 30%;
 }

@@ -14,29 +14,56 @@
     <title>CSS Concepts</title>
   </head>
   <body>
+    <section id="header">
+      <nav id="nav">
+        <ul>
+          <li class="current"><a href="../index.html">Home</a></li>
+        </ul>
+      </nav>
+    </section>
     <main class="article">
       <h1>What does it mean to display inline vs inline blocks?</h1>
+      <h2>Introduction</h2>
       <p>
-        display: inline-block brought a new way to create side by side boxes
-        that collapse and wrap properly depending on the available space in the
-        containing element. It makes layouts that were previously accomplished
-        with floats easier to create. No need to clear floats anymore.
+        In CSS, display can have values of inline and inline-block. Display:
+        inline respect left & right margin and padding, but not top & bottom.
+        And allow other elements to sit to their left and right.
       </p>
       <p>
-        Compared to display: inline, the major difference is that display:
-        inline-block allows to set a width and height on the element.
+        Display: inline-block brought a new way to create side by side boxes. It
+        does not add a line-break after the element, so the element can sit next
+        to other elements. It allows to set a width and height on the element.
+        And it can set top & bottom margin, padding, height and width.
       </p>
-
       <p>
-        Also, with display: inline-block, the top and bottom margins/paddings
-        are respected, but with display: inline they are not.
+        Display: inline-block has some whitespace above and below it and does
+        not tolerate any HTML elements next to it.
       </p>
-
+      <h2>Display: inline</h2>
       <p>
-        Compared to display: block, the major difference is that display:
-        inline-block does not add a line-break after the element, so the element
-        can sit next to other elements.
+        Although set the width and height of inline box to 300px, the width and
+        height are not respected. the left & right padding and margin are
+        present, but not top & bottom.
       </p>
+      <img class="code-pic" src="../img/cinline block.png" alt="code inline" />
+      <img class="inline" src="../img/inline.png" alt="inline" />
+      <h2>Display: block</h2>
+      <p>
+        The width, height, margin and padding are presented. But there are line
+        break after each div element.
+      </p>
+      <img class="code-pic" src="../img/cblock.png" alt="code block" />
+      <img class="inline" src="../img/block.png" alt="block" />
+      <h2>Display: inline-block</h2>
+      <p>
+        Everything is respected, the three div elements can sit side by side.
+      </p>
+      <img
+        class="code-pic"
+        src="../img/cinline block.png"
+        alt="code inlineblock"
+      />
+      <img class="inline" src="../img/inline block.png" alt="inline-block" />
     </main>
   </body>
 </html>
