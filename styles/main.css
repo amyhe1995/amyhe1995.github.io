@@ -73,8 +73,32 @@ body {
   display: flex;
   align-items: center;
 }
-.pro {
+.project-item {
+  height: 300px;
+  box-shadow: 0px 5px 15px 0px rgba(153, 153, 153, 0.5);
+  border-radius: 8px;
   margin: 20px;
+}
+.cardimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 100%;
+}
+.button {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.button:hover {
+  background-color: #00a5d2;
+  color: white;
 }
 .blog {
   display: flex;
@@ -101,7 +125,6 @@ body {
   margin: auto;
   padding: 60px;
   max-width: 800px;
-  background-color: #ace5ee;
 }
 p {
   font-size: 16px;
@@ -175,5 +198,12 @@ h2 {
   }
   .article {
     padding: 40px;
+  }
+}
+
+/* Media Query for laptop*/
+@media (min-width: 1200px) {
+  .article {
+    background-color: #ace5ee;
   }
 }
