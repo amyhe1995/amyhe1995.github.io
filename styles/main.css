@@ -105,7 +105,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
-  width: 100%;
+  width: 250px;
+  height: 200px;
 }
 .button {
   background-color: rgba(51, 51, 51, 0.05);
@@ -174,7 +175,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-  width: 70%;
+  width: 80%;
 }
 
 .code-pic {
@@ -183,6 +184,8 @@ h2 {
   margin-right: auto;
   margin-bottom: 20px;
   width: 50%;
+  height: 200px;
+  border-radius: 8px;
 }
 
 /* Media Query for Mobile Devices */
