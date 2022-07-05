@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>javascript-dom</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="../index.html"
+        ><img class="img" src="../img/intro.png" alt="intro"
+      /></a>
+      <nav id="nav">
+        <ul>
+          <li class="current"><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#banner">About</a></li>
+          <li><a href="../index.html#projects">Work</a></li>
+          <li><a href="../index.html#blog">Blog</a></li>
+        </ul>
+      </nav>
+
+      <nav id="mobilenav">
+        <ul>
+          <li class="current"><a href="../index.html">Home</a></li>
+        </ul>
+      </nav>
+    </section>
+    <main class="article">
+      <h1>JS Fundamentals</h1>
+      <p class="p-blod">
+        An analogy to describe JavaScript and its relationship to HTML and CSS.
+      </p>
+      <p>
+        HTML likes the structure of house and CSS is the styles of house. The
+        JavaScript is the function in this house like turn off or on the light.
+      </p>
+      <p class="p-blod">
+        Explain control flow and loops using an example process from everyday
+        life.
+      </p>
+      <img src="../img/train.webp" alt="train" class="float-right" />
+      <p>
+        Control flow likes daily plan which made by yourself. It is used to
+        guide you how to performance one day. On you daily plan list, it shows
+        like 8am get up, 9am breakfast, 10am working.....In the computer,
+        control flow is the order in which the computer executes statements in a
+        script. When you look at train map, You also will find train works based
+        on control flow. train stops are in order and train should stop in each
+        station based on train map.
+      </p>
+      <p>
+        Loops are used in JavaScript to perform repeated tasks based on a
+        condition. In our life, we use loops many times. For example, the public
+        transport is from the first station to end station. And then back to
+        from first station to end station. It works until the driver need a
+        break or finish the job.
+      </p>
+
+      <p class="p-blod">
+        Describe what the DOM is and an example of how you might interact with
+        it.
+      </p>
+      <img src="../img/DOM.png" alt="DOM" class="inline" />
+      <p>
+        DOM means Document Object Model and it defines the logical structure of
+        documents and the way a document is accessed and manipulated. It is a
+        programming interface that allows us to create, change, or remove HTML
+        elements from the document. We can also add events to these elements to
+        make our page more dynamic.
+      </p>
+      <p>
+        As seen in the diagram, DOM looks like a tree and HTML elements and
+        attributes are the branches. JavaScript is used to manipulate these HTML
+        elements or attributes based on DOM. In order to manipulate DOM,
+        JavaScript functions is used and we should create a event to callback
+        these functions.
+      </p>
+      <p>
+        If you want to interact with DOM, the simple way is to open devTools by
+        right clicking the mouse or trackpad and navigating down to "inspect".
+        You will find the window like the picture below. Just click element, and
+        change something you want. these changes are not permanent. They will
+        revert back to what they were when the page is refreshed!
+      </p>
+      <img src="../img/dom-example.png" alt="dom-example" class="inline" />
+      <p class="p-blod">
+        Explain the difference between accessing data from arrays and objects.
+      </p>
+      <p>
+        Object are mutable data structure in javascript and it contains many
+        values. It use properties to store the data in key value pair and the
+        key can be anything except for undefined. The keys are iterable and can
+        be accessed in any order.
+      </p>
+      <p>
+        There are two ways to access the object properties: dot notation and
+        bracket notation. You can look the picture below, the two ways can get
+        some value from the person object.
+      </p>
+      <img src="../img/object.png" alt="object" class="code-pic" />
+      <p>
+        Arrays are a special type of objects. Array is most same like object. It
+        also contains many value. It also has key and values. The main
+        difference is that the key of array starts from 0 and The keys are in
+        order.
+      </p>
+      <p>
+        For array, we can only use bracket notation to access the value as array
+        stores the ordered data. You can only access the value based on the
+        index. You can look the picture below, the person[0] means the first
+        element of array. So the result is name.
+      </p>
+      <img src="../img/array.png" alt="array" class="code-pic" />
+
+      <p class="p-blod">Explain what functions are and why they are helpful.</p>
+      <p></p>
+    </main>
+  </body>
+</html>
