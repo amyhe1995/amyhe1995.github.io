@@ -136,18 +136,26 @@ body {
   align-items: center;
 }
 .footer {
-  background-color: white;
-  color: #5d5d5d;
   padding: 20px;
   text-align: center;
 }
-
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon {
+  margin: 0px 16px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+}
 .article {
   border-radius: 6px;
   margin: auto;
-  padding: 60px;
+  padding: 0px 60px;
   max-width: 800px;
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
 }
 
 p {
@@ -237,12 +245,6 @@ h2 {
   }
 }
 
-/* Media Query for laptop*/
-@media (min-width: 1200px) {
-  .article {
-    background-color: #ace5ee;
-  }
-}
 .float-right {
   border: dashed;
   border-color: teal;
